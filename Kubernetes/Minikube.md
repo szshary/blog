@@ -13,7 +13,7 @@ grep -E --color 'vmx|svm' /proc/cpuinfo
 ## 安装kubectl
 
 ```
-https://dl.k8s.io/release/v1.18.2/bin/linux/amd64/kubectl
+curl -LO https://dl.k8s.io/release/v1.18.2/bin/linux/amd64/kubectl
 chmod +x kubectl
 sudo mv kubectl /usr/local/bin/
 ```
