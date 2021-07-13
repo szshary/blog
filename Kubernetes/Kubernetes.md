@@ -1,2 +1,2 @@
-[Minikube](Minikube.md)
+[Minikube部署](Minikube.md)
 
