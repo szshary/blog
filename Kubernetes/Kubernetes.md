@@ -1,1 +1,2 @@
-[Kubernetes](Minikube.md)
+[Minikube](Minikube.md)
+
