@@ -52,3 +52,29 @@ apiserver: Running
 kubeconfig: Configured
 ```
 
+## 访问dashboard
+
+###  启动dashboard
+
+```
+minikube dashboard --url
+```
+#### 输出
+```
+http://127.0.0.1:33685/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy
+```
+
+### 启动kubectl proxy
+```
+kubectl proxy --port=8001 --address='192.168.1.230' --accept-hosts='^.*'
+```
+#### 输出
+```
+Starting to serve on 192.168.1.230:8001
+```
+### 访问地址
+```
+192.168.1.230:8001/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy
+```
+
+
