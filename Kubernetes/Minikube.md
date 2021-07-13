@@ -55,6 +55,7 @@ kubeconfig: Configured
 ### 部署测试
 ```
 kubectl create deployment hello-minikube --image=registry.aliyuncs.com/google_containers/echoserver:1.10
+kubectl get pods
 ```
 
 ## 访问dashboard
